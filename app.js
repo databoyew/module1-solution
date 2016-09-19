@@ -9,7 +9,7 @@
         if(!$scope.dishes||$scope.dishes==""){
             $scope.message ="Please enter the data first";
         }else if ($scope.dishes.indexOf(",")==-1 ) {
-          $scope.message ="Enjoy";
+          $scope.message ="Hungry";
         }else {
           var dishcount =$scope.dishes.split(",").length;
           if(dishcount<=3){
